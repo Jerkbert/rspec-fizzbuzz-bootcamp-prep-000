@@ -3,11 +3,10 @@
 
 def fizzbuzz(n) do
   if n % 3 == 0
-    puts "Fizz"
+    "Fizz"
   elsif n % 5 == 0
-    puts "Buzz"
-  elsif n % 3 && n % 5
-  puts "FizzBuzz"
-else puts "nil"
-end
+    "Buzz"
+  else n % 3 == 0 && n % 5 == 0
+  "FizzBuzz"
+  end
 end
