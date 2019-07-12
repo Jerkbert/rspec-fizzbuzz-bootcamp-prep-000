@@ -2,11 +2,11 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(n) do
-  if n % 3
+  if n % 3 == 0
     puts "Fizz"
-  elsif n % 5
+  elsif n % 5 == 0
     puts "Buzz"
-  elsif n % 3 && n % 5 
+  elsif n % 3 && n % 5
   puts "FizzBuzz"
 else puts "nil"
 end
