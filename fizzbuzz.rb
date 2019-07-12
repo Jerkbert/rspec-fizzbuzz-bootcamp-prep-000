@@ -3,10 +3,10 @@
 
 def fizzbuzz(n)
   ifn % 3 == 0 && n % 5 == 0
-    "Fizz"
+    "FizzBuzz"
   elsif n % 5 == 0
     "Buzz"
-  else 
-  "FizzBuzz"
+  else n % 3 == 0
+  "Fizz"
   end
 end
