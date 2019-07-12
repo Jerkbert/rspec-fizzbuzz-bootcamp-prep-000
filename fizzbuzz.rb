@@ -6,7 +6,7 @@ def fizzbuzz(n)
     "FizzBuzz"
   elsif n % 5 == 0
     "Buzz"
-  else n % 3 == 0
+  elsif n % 3 == 0
   "Fizz"
   end
 end
