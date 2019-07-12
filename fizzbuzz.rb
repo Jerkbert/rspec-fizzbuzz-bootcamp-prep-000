@@ -9,5 +9,4 @@ def fizzbuzz(n)
   else n % 3 == 0
   "Fizz"
   end
-  nil
 end
